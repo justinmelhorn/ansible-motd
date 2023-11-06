@@ -1,4 +1,6 @@
 ---
 - name: motd
+  hosts: all
+  become: yes
   roles :
     - motd
