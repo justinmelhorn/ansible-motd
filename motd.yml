@@ -1,6 +1,6 @@
 ---
 - name: motd
   hosts: all
+  become: true
   roles :
     - melhorn.motd.motd
-      become: true
