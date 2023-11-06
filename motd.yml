@@ -3,4 +3,5 @@
   hosts: all
   become: true
   roles :
-    - melhorn.motd.motd
+    - role: melhorn.motd.motd
+      become: true
